@@ -1,2 +1,2 @@
 # Notebook-test
-dummy jupyter notebook
+Collection of notebooks to test and improve
