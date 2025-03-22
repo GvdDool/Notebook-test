@@ -99,7 +99,7 @@ conda install rtree pyarrow hvplot -c conda-forge
 ```
 
 ## **14. Notes & Troubleshooting**
-- Ensure the **batch file** (if used) points to the correct Conda environment.
+- Ensure the **batch file** (if used) points to the correct Conda environment - see the included activate.bat file as an example, as well as the notebook for testing the functionality of the installed packages.
 - Even if Jupyter allows switching kernels, package paths are loaded from the starting environment, which can cause issues with:
   - `geopandas`, `pyproj`
   - `rasterio`, `gdal`
