@@ -103,7 +103,18 @@ conda install rtree pyarrow hvplot -c conda-forge
 - Even if Jupyter allows switching kernels, package paths are loaded from the starting environment, which can cause issues with:
   - `geopandas`, `pyproj`
   - `rasterio`, `gdal`
+
+*Check for a Package*
 - To check if a package (e.g., `contextily`) is installed:
 ```bash
+
+
 conda list contextily
 python -c "import contextily; print(contextily.__version__)"
+```
+
+**EXTRA** 
+The notebook.bat file has two lines:
+- starting conda: call D:\GeoSpatial\anaconda3\Scripts\activate.bat
+- activating the environment: call activate geo_env_20250322
+
